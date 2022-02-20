@@ -1,0 +1,54 @@
+<style>
+
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+.columnIMG {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.columnIMG img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.columnIMG img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.rowIMG:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.containerIMG {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
