@@ -1,8 +1,7 @@
-<style>
 
-
-
-
+.bb-color-me{
+    background-color: #e3dbe2;
+}
 /* The grid: Four equal columns that floats next to each other */
 .columnIMG {
   float: left;
@@ -51,4 +50,3 @@
   font-size: 35px;
   cursor: pointer;
 }
-</style>
