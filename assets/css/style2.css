@@ -1,0 +1,73 @@
+.underline_me {
+  text-decoration: none;
+  border-bottom: 2px solid #734b6d;
+}
+.bb-color-me {
+  background-color: #e3dbe2;
+}
+/* The grid: Four equal columns that floats next to each other */
+.columnIMG {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.columnIMG img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.columnIMG img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.rowIMG:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.containerIMG {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.myBanner {
+  color: black;
+  font-family: 'arial';
+  font-size: 1.2em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 4s steps(80, end);
+  transition: all cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+@keyframes animtext {
+  from {
+    width: 0;
+    transition: all 2s ease-in-out;
+  }
+}
