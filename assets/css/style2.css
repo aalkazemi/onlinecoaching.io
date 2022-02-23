@@ -1,10 +1,9 @@
-
-.underline_me{
-    text-decoration:none;
-    border-bottom:2px solid #734b6d;
+.underline_me {
+  text-decoration: none;
+  border-bottom: 2px solid #734b6d;
 }
-.bb-color-me{
-    background-color: #e3dbe2;
+.bb-color-me {
+  background-color: #e3dbe2;
 }
 /* The grid: Four equal columns that floats next to each other */
 .columnIMG {
@@ -15,8 +14,8 @@
 
 /* Style the images inside the grid */
 .columnIMG img {
-  opacity: 0.8; 
-  cursor: pointer; 
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .columnIMG img:hover {
@@ -25,7 +24,7 @@
 
 /* Clear floats after the columns */
 .rowIMG:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -53,4 +52,22 @@
   color: white;
   font-size: 35px;
   cursor: pointer;
+}
+
+.myBanner {
+  color: black;
+  font-family: 'arial';
+  font-size: 1.2em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 4s steps(80, end);
+  transition: all cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+@keyframes animtext {
+  from {
+    width: 0;
+    transition: all 2s ease-in-out;
+  }
 }
