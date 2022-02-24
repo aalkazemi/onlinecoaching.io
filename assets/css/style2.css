@@ -54,7 +54,7 @@
   cursor: pointer;
 }
 
-.myBanner {
+/* .myBanner {
   color: black;
   font-family: 'arial';
   font-size: 1.2em;
@@ -70,4 +70,4 @@
     width: 0;
     transition: all 2s ease-in-out;
   }
-}
+} */
