@@ -54,6 +54,25 @@
   cursor: pointer;
 }
 
+.p-about-me {
+  display: flex;
+  /* justify-content: center; */
+  text-align: justify;
+}
+
+.trans_padding {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.trans_Heading_padding {
+  padding-top: 0px;
+}
+
+.contact_padding {
+  padding-top: 0px;
+}
+
 /* .myBanner {
   color: black;
   font-family: 'arial';
@@ -71,3 +90,8 @@
     transition: all 2s ease-in-out;
   }
 } */
+
+/* input field style for email */
+.rounded-input {
+  border-radius: 10px;
+}
